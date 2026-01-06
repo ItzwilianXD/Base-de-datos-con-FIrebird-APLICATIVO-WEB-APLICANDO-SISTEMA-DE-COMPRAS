@@ -1,0 +1,24 @@
+{
+  "name": "tienda-firebird",
+  "version": "1.0.0",
+  "description": "Cliente Node.js para base de datos Firebird de tienda online",
+  "main": "firebird-adapter.js",
+  "scripts": {
+    "test-connection": "node node-client.js",
+    "example": "node ejemplo-uso.js",
+    "query": "node query-runner.js"
+  },
+  "dependencies": {
+    "node-firebird": "^0.11.9",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {},
+  "keywords": ["firebird", "database", "tienda", "ecommerce"],
+  "author": "",
+  "license": "ISC",
+  "notes": {
+    "instalacion": "npm install",
+    "prueba": "npm run test-connection",
+    "ejemplo": "npm run example"
+  }
+}
